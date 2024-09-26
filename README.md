@@ -44,6 +44,19 @@ dan juga csrf.TemplateField yang dapat Anda masukkan ke dalam template html/temp
 
 Berikut adalah langkah-langkah dasar untuk mengimplementasikan Gorilla CSRF dalam aplikasi Go:
 
+Tautan GitHub yang kamu berikan mengarah ke repositori gorilla/csrf, yang merupakan sebuah paket untuk menangani serangan Cross-Site Request Forgery (CSRF) dalam aplikasi web yang dibangun menggunakan bahasa pemrograman Go. Berikut adalah beberapa fungsi utama dari paket ini:
+
+Proteksi CSRF: Paket ini membantu mengamankan aplikasi dari serangan CSRF dengan memvalidasi token yang dikirim bersama permintaan HTTP. Token ini harus disertakan dalam permintaan untuk dianggap valid.
+
+Integrasi yang Mudah: Paket ini dirancang agar mudah diintegrasikan ke dalam aplikasi Go, dengan menyediakan middleware yang dapat digunakan langsung di router Go.
+
+Pengelolaan Token: Paket ini memungkinkan pengelolaan token yang mudah, termasuk pembuatan dan pengiriman token kepada klien, serta validasi token yang diterima dari klien.
+
+Dukungan untuk Berbagai Metode HTTP: Paket ini dapat digunakan untuk melindungi berbagai jenis permintaan HTTP, baik itu POST, PUT, DELETE, dan lain-lain.
+
+Konfigurabilitas: Pengguna dapat mengonfigurasi opsi seperti nama cookie, waktu kedaluwarsa token, dan lain-lain sesuai dengan kebutuhan aplikasi mereka.
+
+Dengan menggunakan paket ini, pengembang dapat lebih mudah melindungi aplikasi mereka dari potensi serangan CSRF, yang dapat mengeksploitasi kredensial pengguna yang sudah terautentikasi.
 
 1. Instal Paket
 Pertama, pastikan Anda menginstal paket gorilla/csrf. Anda bisa menggunakan go get untuk menginstalnya:
