@@ -6,7 +6,7 @@
 - 😄 Pronouns:
 - ⚡ Fun fact: ...
 
-<!---
-Nor3ch/Nor3ch is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+gorila/csrf
+cross-site requet forgery (CSRF) adalah sebuah serangan cyber pada suatu website tertentu yang tentunya sangat berbahaya bagi pengguna website tersebut.
+Serangan ini sering tidak dikenali oleh pengguna dan akhirnya tidak sadar kalau sudah terkena serangan cyber tersebut.
+gorila/csrf merupakan HTTP library middleware yang menyediakan layanan 
