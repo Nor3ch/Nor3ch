@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int uts, uas, tugas, nilai_akhir, grade;
+
+    printf("nilai uts keseluruhan : ");
+    scanf("%d", &uts);
+    printf("nilai uas : ");
+    scanf("%d", &uas);
+    printf("nilai tugas : ");
+    scanf("%d", &tugas);
+
+    nilai_akhir = (uts * 30/100) + (uas * 50/100) + (tugas * 20/100);
+
+    if (nilai_akhir >= 90) {
+        grade = 'A';
+    } if (nilai_akhir >= 75 && nilai_akhir < 90) {
+        grade = 'B';
+    } if (nilai_akhir >= 60 && nilai_akhir < 75) {
+        grade = 'C';
+    } if (nilai_akhir < 60) {
+        grade = 'D';
+    }
+
+    printf("Nilai akhir : %d\n", nilai_akhir);
+    printf("Grade : %c\n", grade);
+
+    return 0;
+}
